@@ -1,0 +1,24 @@
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Old project and temporary backups
+legacy-vanilla/
+snapshot-before-jwst-font/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
